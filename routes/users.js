@@ -25,8 +25,6 @@ router
     users.login
   );
 
-router;
-
 router.get("/logout", users.logout);
 
 module.exports = router;
